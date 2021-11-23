@@ -1,0 +1,31 @@
+h1{
+   font-size: 30px;
+   color:white;
+   background-color: #6e74b8;
+}
+
+
+body {
+     background-color: #72c2aa;
+}
+
+
+p{
+  font-size: 20px;
+  color: white;
+  background-color: #9e72c2;
+}
+
+p1{
+  border: 3px dotted #892394;
+  font-size: 20px;
+  color: white;
+  background-color: #c272bb;
+}
+
+ul{
+   background-color: #9c4363;
+   color: white;
+   text-decoration: underline;
+   font size: 40px;
+}

@@ -1,0 +1,21 @@
+.left{
+	float: left;
+	width: 350px;
+	border: 20px dotted pink;
+	border-radius: 50px;
+}
+
+.right{
+	float: right;
+	width: 500px;
+	border: 20px dashed crimson;
+	border-radius: 50px;
+}
+
+p{
+	font-size: 35px;
+}
+
+img{
+	margin: 30px;
+}

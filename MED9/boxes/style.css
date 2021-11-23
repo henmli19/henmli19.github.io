@@ -1,0 +1,24 @@
+h1{
+	width: 1000px;
+    border: 8px solid darkblue;
+	background-color: #99b1ff;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 70px;
+	text-align: left;
+}
+
+html{
+	background-color: blue;
+}
+
+
+p{
+	width: 1000px;
+	border: 8px dotted darkblue;
+	background-color: #99b1ff;
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 70px;
+	text-align: right;
+}

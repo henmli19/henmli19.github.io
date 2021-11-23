@@ -1,0 +1,50 @@
+body{
+	background-color: darkblue;
+}
+
+h1{
+	background-color: pink;
+	color: purple;
+	text-align: center;
+	padding: 40px;
+}
+
+
+h2{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+}
+
+
+div{
+	background-color: yellow;
+	border: 20px solid orange;
+	color: orange;
+	padding: 30px;
+	width: 1800px;
+}
+
+ul{
+	background-color: lightblue;
+	padding: 30px;
+	width: 1800px;
+	border: 20px dashed blue;
+}
+
+li{
+	color: white;
+	background-color: darkblue;
+	padding: 5px;
+	margin: 20px;
+}
+
+p{
+	color: white;
+	border: 15px dotted green;
+	border-radius: 20px;
+	background-color: lightgreen;
+	font-size: 30px;
+	width: 1800px;
+	padding: 30px
+}

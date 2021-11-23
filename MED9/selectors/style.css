@@ -1,0 +1,16 @@
+.black{
+	background-color: black;
+	color: white;
+}
+
+.red{
+	background-color: red;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+div{
+	padding: 30px;
+}
