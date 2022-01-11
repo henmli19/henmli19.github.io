@@ -1,0 +1,14 @@
+p{
+  font-size: 90px;
+  background-image: linear-gradient(to right, #775dde , #6effd8 , #81ff6e);
+} 
+
+h1{
+  font-size: 90px;
+  background-image: linear-gradient(#b0ebff, #9694ff, #81ff6e, #ff94e8, #ff9494);
+}
+
+h2{
+  font-size: 100px;
+   background-image: radial-gradient(#f1ff30, #ff94e8, #2a0f96);
+}
