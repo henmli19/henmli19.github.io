@@ -1,0 +1,38 @@
+.U1{
+  width: 1000px;
+  height: 400px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.p1{
+  background-color: red;
+}
+
+.U2{
+  width: 1000px;
+  height: 400px;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.U3{
+  width: 1000px;
+  height: 400px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.photo{
+  width: 100px;
+  height: 100px;
+}
