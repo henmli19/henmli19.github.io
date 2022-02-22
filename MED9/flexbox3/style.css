@@ -1,0 +1,65 @@
+
+header{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("electronics1.jpg");
+  background-size: cover;
+  background-position: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+body{
+  margin: 0;
+  font-family: 'Amatic SC', bold;
+}
+
+header h1{
+  padding: 30px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 20px;
+
+}
+
+main{
+  padding: 100px;
+  background: rgb(25,53,88);
+  background: linear-gradient(90deg, rgba(25,53,88,1) 0%, rgba(171,42,42,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+main p{
+  column-count: 2;
+  color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+  background-image: url("electronics2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+footer p{
+  padding: 30px;
+  background-color: rgb(255, 255, 255, 0.6);
+  border-radius: 20px;
+}
+
+#schaltung{
+  padding:  100p;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: crimson;
+
+}
+
+#schaltung ul li{
+  padding: 30px;
+  margin: 30px;
+  background-color: lightblue;
+}
