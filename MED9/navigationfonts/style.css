@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: lightgreen;
+	display: flex;
+	justify-content: space-between;
+	align-items: cemter;
+	padding: 30px;
+}
+
+ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	font-family: 'Fredoka', sans-serif;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: darkgreen;
+	background-color: white;
+	border-radius: 10px;
+}
+
+ul li a:hover {
+	background-color: darkgreen;
+	color: white;
+}
+
