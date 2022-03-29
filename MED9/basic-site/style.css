@@ -1,0 +1,136 @@
+/*
+* Title:  A website about a page with a navigation banner;
+* Author: Henri Mlika;
+* Date:   15.03.2022;
+*/
+
+
+/*************General Styles****************/
+body{
+	margin: 0;
+}
+
+
+/* Navigation */
+nav{
+	background: rgb(116,205,215);
+    background: radial-gradient(circle, rgba(116,205,215,1) 8%, rgba(73,125,158,1) 79%, rgba(54,91,140,1) 98%);
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: cemter;
+	padding: 30px;
+}
+
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: space-between;
+	list-style-type: none;
+
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+	border: solid;
+	border-color: #035987;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	color: darkblue;
+	background-color: white;
+	border-radius: 10px;
+	text-decoration: none; /* Removes link underline */
+}
+
+/* Hover is used to make a nice effect if we put the mouse over the link */
+ul li a:hover {
+    background-color: #235570;
+	color: white;
+}
+
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+}
+
+/* Main */
+main{
+	padding: 100px;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background: linear-gradient(90deg, rgba(150,246,255,1) 0%, rgba(255,171,242,1) 100%);
+	
+
+}
+
+footer p{
+	font-size: 30px;
+	border: solid;
+	border-color: #035987;
+	border-radius: 20px;
+	padding: 10px;
+
+}
+
+
+/* Section */
+section{
+	padding:  50px;
+}
+
+/********************************* Page Styles ********************************/
+
+/* Home Page */
+
+#home header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background.jpg");
+}
+ 
+
+
+/* About Page */
+
+#about header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-about.jpg");
+}
+
+
+/* Other Page 1 */
+
+#seite3 header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-seite3.jpg");
+}
+
+ /* Other Page 2 */
+
+#seite4 header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-seite4.jpg");
+}
