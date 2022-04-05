@@ -1,0 +1,18 @@
+*{
+	border: 1px solid black;
+	margin: 5px;
+	padding: 50px;
+
+}
+
+p{
+	background-color: crimson;
+	position: fixed;
+	left: 100px;
+	top: 100px;
+	z-index: -10;
+}
+
+header{
+	background-color: lightblue;
+}

@@ -1,0 +1,70 @@
+:root {
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: palevioletred;
+	display: flex;
+	justify-content: space-between;
+	align-items: cemter;
+	padding: 30px;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+nav ul {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+}
+
+nav img{
+	height: 80px;
+	border-radius: 50%;
+}
+
+nav ul li a{
+	margin: 20px;
+	padding: 20px;
+	text-decoration: none;
+	color: darkviolet;
+	background-color: white;
+	border-radius: 10px;
+}
+
+nav ul li a:hover {
+	background-color: darkviolet;
+	color: white;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("header.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+section{
+	padding: 100px;
+}
+
+#link1 {
+	background-color: lightgreen;
+}
+
+#link2 {
+	background-color: lightcoral;
+}
+
+#link3 {
+	background-color: lightblue;
+}
