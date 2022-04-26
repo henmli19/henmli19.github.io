@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&display=swap');
+
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+article{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-family: 'Akshar', sans-serif;
+}
+
+article .image {
+    height: 200px;
+	width: 350px;
+	background-image: url("rome.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+article .text {
+	height: 200px;
+	width: 350px;
+	background: rgb(100,220,231);
+    background: linear-gradient(60deg, rgba(100,220,231,1) 0%, rgba(2,6,19,1) 100%);
+	padding: 25px;
+
+}
+
+
+article {
+	position: relative;
+}
+
+
+article .box {
+	background-color: #333b6b;
+	color: white;
+	font-size: 30px;
+	padding: 6px;
+	position: absolute;
+	left: 280px;
+	top: 40px;
+	z-index: 1;
+}
+
+article .background{
+	background-color: blue;
+}
+
+
+article .box2 {
+	background-color: white;
+	color: #333b6b;
+	font-size: 50px;
+	padding: 6px;
+	position: absolute;
+	left: 560px;
+	top: 75px;
+}
