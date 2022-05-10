@@ -1,0 +1,211 @@
+/*
+* Title:  Projekt 3;
+* Author: Henri Mlika;
+* Date:   15.03.2022;
+*/
+
+
+/*************General Styles****************/
+/*getting font*/ @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+	margin: 0;
+}
+
+
+/* Navigation */
+nav{
+    background: rgb(255,246,115);
+    background: linear-gradient(60deg, rgba(255,246,115,1) 0%, rgba(255,255,255,1) 100%);
+	display: flex;
+	justify-content: space-between; /* To make space between logo and list */
+	align-items: cemter;
+	padding: 30px;
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; 
+    width: 98%; 
+    font-family: 'Patrick Hand', cursive;
+} 
+
+
+nav ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: space-between;
+	list-style-type: none;
+	font-family: 'Patrick Hand', cursive;
+
+}
+
+header h1{
+	color: brown;
+}
+nav img{
+	height: 80px;
+	width: 60px;
+	border-radius: 50%;
+	border: solid;
+	border-color: #e8882e;
+}
+
+ul li a{
+	margin: 20px;
+	padding: 20px;
+	color: #c98053;
+	background-color: #ffc8a6;
+	border-radius: 10px;
+	text-decoration: none; /* Removes link underline */
+}
+
+/* Hover is used to make a nice effect if we put the mouse over the link */
+ul li a:hover {
+    background-color: #c98053;
+	color: white;
+}
+
+/* Main */
+main{
+	padding: 100px;
+}
+
+/* Header */
+header{
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Patrick Hand', cursive;
+}
+
+
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+/* Footer */
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 400px;
+	background: rgb(255,187,127);
+    background: linear-gradient(60deg, rgba(255,187,127,1) 0%, rgba(161,74,74,1) 100%);
+    font-family: 'Patrick Hand', cursive;
+}
+
+footer p{
+	font-size: 30px;
+	border: solid;
+	border-color: #b0583a;
+	border-radius: 20px;
+	padding: 10px;
+	font-family: 'Patrick Hand', cursive;
+
+}
+
+
+/* Section */
+section{
+	padding:  50px;
+	font-family: 'Patrick Hand', cursive;
+}
+
+
+/*TRENDING*/
+#trend{
+	font-size: 30px;
+	text-align: center;
+	color: #8c4229;
+	font-family: 'Patrick Hand', cursive;
+}
+/********************************* Page Styles ********************************/
+
+/* Home Page */
+
+#home header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background.jpg");
+}
+ 
+
+
+/* About Page */
+
+#about header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-about.jpg");
+}
+
+
+/* Other Page 1 */
+
+#seite3 header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-seite3.jpg");
+}
+
+ /* Other Page 2 */
+
+#seite4 header{
+	    /* How to use a backgeoun image*/
+    background-image: url("header-background-seite4.jpg");
+}
+
+
+/************************************************ CARD  *******************************************/
+article .image {
+	height: 170px;
+	width: 350px;
+	background-image: url("flower.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+article .text {
+	height: 170px;
+	width: 350px;
+	background-color: white;
+	padding: 25px;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	flex-direction: column;
+}
+
+article .text footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 12px;
+	coor:  darkgrey;
+
+}
+
+article .text header {
+text-transform: uppercase;
+font-size: 15px;
+}
+
+
+article {
+	position: relative;
+}
+
+article .box {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 6px;
+	position: absolute;
+	left: 0px;
+	top: 193px;
+}
