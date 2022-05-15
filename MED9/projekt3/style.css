@@ -13,10 +13,10 @@ body{
 }
 
 
-/* Navigation */
+/***************************************************** Navigation ****************************************************************/
 nav{
-    background: rgb(255,246,115);
-    background: linear-gradient(60deg, rgba(255,246,115,1) 0%, rgba(255,255,255,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,103,255,1) 100%);
 	display: flex;
 	justify-content: space-between; /* To make space between logo and list */
 	align-items: cemter;
@@ -25,10 +25,9 @@ nav{
     top: 0; 
     width: 98%; 
     font-family: 'Patrick Hand', cursive;
+    z-index: 1;
 } 
-
-
-nav ul{
+nav ul{                                    /************buttons*************/
 	display: flex;
 	justify-content: flex-end;
 	align-items: space-between;
@@ -36,34 +35,32 @@ nav ul{
 	font-family: 'Patrick Hand', cursive;
 
 }
-
-header h1{
-	color: brown;
-}
-nav img{
-	height: 80px;
-	width: 60px;
-	border-radius: 50%;
-	border: solid;
-	border-color: #e8882e;
-}
-
 ul li a{
 	margin: 20px;
 	padding: 20px;
-	color: #c98053;
-	background-color: #ffc8a6;
+	color: #e381a9;
+	background-color: #d1417b;
 	border-radius: 10px;
 	text-decoration: none; /* Removes link underline */
 }
-
 /* Hover is used to make a nice effect if we put the mouse over the link */
 ul li a:hover {
-    background-color: #c98053;
+    background-color: #221145;
 	color: white;
 }
 
-/* Main */
+nav img{                          /**********************logo********************/
+	height: 90px;
+	width: 100px;
+	padding: 0px;
+}
+
+header h1{
+	color: #e381a9;
+}
+
+
+/********************************************* Main ******************************************************/
 main{
 	padding: 100px;
 }
@@ -94,15 +91,15 @@ footer{
 	justify-content: space-evenly;
 	align-items: center;
 	height: 400px;
-	background: rgb(255,187,127);
-    background: linear-gradient(60deg, rgba(255,187,127,1) 0%, rgba(161,74,74,1) 100%);
+	background: rgb(255,95,178);
+background: linear-gradient(90deg, rgba(255,95,178,1) 0%, rgba(196,93,255,1) 100%);
     font-family: 'Patrick Hand', cursive;
 }
 
 footer p{
 	font-size: 30px;
 	border: solid;
-	border-color: #b0583a;
+	border-color: #91003b;
 	border-radius: 20px;
 	padding: 10px;
 	font-family: 'Patrick Hand', cursive;
@@ -121,7 +118,7 @@ section{
 #trend{
 	font-size: 30px;
 	text-align: center;
-	color: #8c4229;
+	color: #91003b;
 	font-family: 'Patrick Hand', cursive;
 }
 /********************************* Page Styles ********************************/
