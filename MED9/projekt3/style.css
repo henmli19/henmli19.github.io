@@ -86,24 +86,23 @@ header h1{
 }
 
 /* Footer */
-footer{
+.footer{
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	height: 400px;
 	background: rgb(255,95,178);
-background: linear-gradient(90deg, rgba(255,95,178,1) 0%, rgba(196,93,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,95,178,1) 0%, rgba(196,93,255,1) 100%);
     font-family: 'Patrick Hand', cursive;
 }
 
-footer p{
+.footer p{
 	font-size: 30px;
 	border: solid;
 	border-color: #91003b;
 	border-radius: 20px;
 	padding: 10px;
 	font-family: 'Patrick Hand', cursive;
-
 }
 
 
@@ -115,12 +114,19 @@ section{
 
 
 /*TRENDING*/
+.offerstext{
+	font-size: 30px;
+	color: #91003b;
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+}
 #trend{
 	font-size: 30px;
 	text-align: center;
 	color: #91003b;
 	font-family: 'Patrick Hand', cursive;
 }
+
 /********************************* Page Styles ********************************/
 
 /* Home Page */
@@ -156,10 +162,12 @@ section{
 
 
 /************************************************ CARD  *******************************************/
+
+
 article .image {
 	height: 170px;
 	width: 350px;
-	background-image: url("flower.jpg");
+	background-image: url("clothes1.jpg");
 	background-position: center;
 	background-size: cover;
 	padding: 25px;
@@ -170,34 +178,45 @@ article .text {
 	width: 350px;
 	background-color: white;
 	padding: 25px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Patrick Hand', sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: stretch;
 	flex-direction: column;
+		background-color: #edd7fc;
 }
 
 article .text footer {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	font-size: 12px;
-	coor:  darkgrey;
+	color: white;
 
 }
 
 article .text header {
 text-transform: uppercase;
 font-size: 15px;
+color: white;
 }
 
+header span {
+	margin-right: 8px;
+	margin-left: 8px;
 
+}
+
+footer span {
+	margin-right: 8px;
+	margin-left: 8px;
+	color: #563e66;
+
+}
 article {
 	position: relative;
+
 }
 
 article .box {
-	background-color: red;
+	background-color: #b26bd1;
 	color: white;
 	text-transform: uppercase;
 	font-size: 12px;
@@ -205,4 +224,37 @@ article .box {
 	position: absolute;
 	left: 0px;
 	top: 193px;
+}
+
+section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+article .winter {
+	height: 170px;
+	width: 350px;
+	background-image: url("winter.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+article .return {
+	height: 170px;
+	width: 350px;
+	background-image: url("return.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+main p{
+   font-size: 30px;
+	text-align: center;
+	color: #91003b;
+	font-family: 'Patrick Hand', cursive;
+
 }
