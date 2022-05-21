@@ -15,8 +15,8 @@ body{
 
 /***************************************************** Navigation ****************************************************************/
 nav{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(233,103,255,1) 100%);
+    background: rgb(61,70,117);
+    background: linear-gradient(90deg, rgba(61,70,117,1) 0%, rgba(0,0,0,1) 100%);
 	display: flex;
 	justify-content: space-between; /* To make space between logo and list */
 	align-items: cemter;
@@ -27,7 +27,7 @@ nav{
     font-family: 'Patrick Hand', cursive;
     z-index: 1;
 } 
-nav ul{                                    /************buttons*************/
+ul{                                    /************buttons*************/
 	display: flex;
 	justify-content: flex-end;
 	align-items: space-between;
@@ -38,8 +38,8 @@ nav ul{                                    /************buttons*************/
 ul li a{
 	margin: 20px;
 	padding: 20px;
-	color: #e381a9;
-	background-color: #d1417b;
+	color: white;
+	background-color: black;
 	border-radius: 10px;
 	text-decoration: none; /* Removes link underline */
 }
@@ -56,7 +56,7 @@ nav img{                          /**********************logo*******************
 }
 
 header h1{
-	color: #e381a9;
+	color: black;
 }
 
 
@@ -87,19 +87,20 @@ header h1{
 
 /* Footer */
 .footer{
+	color: black;
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
 	height: 400px;
-	background: rgb(255,95,178);
-    background: linear-gradient(90deg, rgba(255,95,178,1) 0%, rgba(196,93,255,1) 100%);
+	background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(61,70,117,1) 100%);
     font-family: 'Patrick Hand', cursive;
 }
 
 .footer p{
 	font-size: 30px;
 	border: solid;
-	border-color: #91003b;
+	border-color: white;
 	border-radius: 20px;
 	padding: 10px;
 	font-family: 'Patrick Hand', cursive;
@@ -116,7 +117,7 @@ section{
 /*TRENDING*/
 .offerstext{
 	font-size: 30px;
-	color: #91003b;
+	color: black;
 	text-align: center;
 	font-family: 'Patrick Hand', cursive;
 }
@@ -251,10 +252,45 @@ article .return {
 	padding: 25px;
 }
 
+article .more {
+	height: 170px;
+	width: 350px;
+	background-image: url("more.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+article .name {
+	height: 170px;
+	width: 350px;
+	background-image: url("name.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
+article .newclothes {
+	height: 170px;
+	width: 350px;
+	background-image: url("newclothes.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 25px;
+}
+
 main p{
    font-size: 30px;
 	text-align: center;
-	color: #91003b;
+	color: black;
+	font-family: 'Patrick Hand', cursive;
+}
+
+#show{
+		display: flex;
+	justify-content: center;
+	align-items: space-between;
+	list-style-type: none;
 	font-family: 'Patrick Hand', cursive;
 
 }
