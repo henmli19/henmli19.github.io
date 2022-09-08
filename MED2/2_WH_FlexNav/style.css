@@ -1,0 +1,37 @@
+
+body{
+	margin: 0px;
+	background-color: darkgrey;
+}
+
+img {
+	height: 160px;
+	width: 160px;
+}
+
+nav {
+	background-color: lightgray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+ul{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style-type: none;
+	flex-direction: row;
+}
+
+ul li a {
+	padding: 20px;
+	margin: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: lightcoral;
+	border-radius: 20px;
+	font-family: 'Calibri', sans-serif;
+
+}

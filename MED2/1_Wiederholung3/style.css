@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@300&display=swap');
+
+#green {
+	background-color: lightgreen;
+	padding-bottom: 40px;
+	margin-right: 1450px;
+	font-family: 'Noto Sans Display', sans-serif;
+}
+
+#yellow{
+	background-color: lightyellow;
+	padding-bottom: 40px;
+	font-size: 20px;
+	margin-right: 700px;
+
+}
+
+#red{
+	background-color: indianred;
+	margin-right: 1600px;
+	font-size: 20px;
+	padding-bottom: 500px;
+
+}
