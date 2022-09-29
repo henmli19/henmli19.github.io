@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Progressing ...</title>
+	<style>
+		body{
+			background-color: seagreen;
+		}
+
+		.progressing{
+			border: 10px orange solid;
+			width: 250px;
+			height: 10px;
+			border-radius: 15px;
+		}
+
+		@keyframes progress{
+			0%{width: 0px;}
+			25%{width: 50%;}
+			50%{width: 75%;}
+			75%{width: 85%;}
+			100%{width: 100%;}
+		}
+
+		.load{
+			background-color: white;
+			width: 250px;
+			height: 10px;
+			border-radius: 15px;
+			animation: progress 2s ease-in-out;
+		}
+	</style>
+</head>
+<body>
+	<div class="progressing">
+		<div class="load"></div>
+	</div>
+
+</body>
+</html>

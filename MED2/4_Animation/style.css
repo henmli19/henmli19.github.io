@@ -1,0 +1,60 @@
+.container{
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ball{
+	height: 22px;
+	width: 22px;
+	border-radius: 50%;
+	margin: 10px;
+
+	animation: ball 2s ease-in-out;
+	animation-iteration-count: infinite;
+
+}
+
+.blue{
+	background-color: blue;
+}
+
+.red{
+	background-color: red;
+	animation-delay: 0.25s;
+
+}
+
+.yellow{
+	background-color: yellow;
+	animation-delay: 0.50s;	
+}
+
+.green{
+	background-color: green;
+	animation-delay: 0.75s;
+}
+
+
+@keyframes ball{
+	50%{transform: translateY(25px);}
+	100%{transform: translateY(0px);}
+}
+
+.text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 5px;
+	font-size: 20px;
+	animation: text 2s ease-in-out;
+	animation-iteration-count: infinite;
+	margin-top: -90px;
+}
+
+@keyframes text{
+  0%{opacity: 100%;}
+  50%{opacity: 0%;}
+  100%{opacity: 100%;}
+}
