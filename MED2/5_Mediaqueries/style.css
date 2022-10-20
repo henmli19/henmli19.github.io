@@ -1,0 +1,86 @@
+/*Paddingwerte werden zur angegebenen Breite hinzugezählt
+Somit ergibt sich in Wert von über 100%. Nav, article, und aside 
+erscheinen dadurch nicht nebeneinander.
+Box-sizing:  border-box ... Größenangaben umfassen das gesamte Element*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	/*Lange Wörter werden in nächster Zeile weitergeführt, 
+	wenn sie über den jeweiligen Container hinausragen.*/
+	word-wrap: break-word;
+}
+
+/* Design Smartphone */
+nav, header, article, aside{
+	width: 100%;
+}
+
+header{
+	padding: 25px;
+	background-color: lightgrey;
+}
+
+nav{
+	padding: 25px;
+	background-color: lightcoral;
+}
+
+article {
+	padding: 25px;
+	background-color: lightgoldenrodyellow;
+}
+
+aside{
+	padding: 25px;
+	background-color: lightskyblue;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/*Design Tablet: 600px*/
+@media (min-width: 600px){
+	li{
+		display: inline;
+	}
+	nav{
+		width: 100%;
+	}
+	aside{
+		width: 40%;
+		float: left;
+	}
+
+	article{
+		width: 60%;
+		float: left;
+	}
+}
+
+/* Design Desktop */
+/*768px: Trennung zw. Smartphone/Tablet und Desktop*/
+@media (min-width: 768px){
+	li{
+		display: list-item;
+	}
+	header{
+	width: 100%;
+}
+
+    nav, aside{
+	width: 25%;
+	float: left;
+}
+
+    article {
+	width: 50%;
+	float: left;
+}
+
+.container{
+	width: 70%;
+	margin: auto; /*Bereich wird mittig ausgerichtet*/
+}
+}
