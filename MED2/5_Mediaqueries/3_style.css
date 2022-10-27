@@ -1,0 +1,12 @@
+header{
+	background-image: url("header.jpg");
+	padding: 200px;
+}
+
+header h1{
+	background-color: white;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
